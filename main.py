@@ -23,28 +23,24 @@ FayasNoushad = Client(
 START_TEXT = """
 Hello {}, I am a media background remover bot. Send me a photo I will send the photo without background.
 
-Made by @FayasNoushad
+Made by @Prime_Hritu
 """
 HELP_TEXT = """
 - Just send me a photo
 - I will download it
 - I will send the photo without background
 
-Made by @FayasNoushad
+Made by @Prime_Hritu
 """
 ABOUT_TEXT = """
 - **Bot :** `Backround Remover Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Remove-BG-Bot/tree/main)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
+- **Creator :** [彡 Pʀɪᴍᴇ Hʀɪᴛᴜ »⃟🇮🇳 ๛](https://telegram.me/Prime_Hritu)
+- **Channel :** [⏤͟͟͞͞⛦ 𓆩 𝙋𝙍𝙄𝙑𝘼𝙏𝙀 𝘽𝙊𝙏𝙎 𓆪](https://telegram.me/Private_Bots)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/Private_Bots'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/Prime_Hritu')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -63,7 +59,7 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('Close', callback_data='close')
-        ]]
+
     )
 ERROR_BUTTONS = InlineKeyboardMarkup(
         [[
@@ -73,7 +69,7 @@ ERROR_BUTTONS = InlineKeyboardMarkup(
     )
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Join Updates Channel', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('Join Updates Channel', url='https://telegram.me/Private_Bots')
         ]]
     )
 
